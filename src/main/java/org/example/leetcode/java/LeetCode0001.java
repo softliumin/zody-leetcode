@@ -1,9 +1,3 @@
-/**
- * @(#)LeetCode0001.java, 2020/6/28.
- * <p/>
- * Copyright 2020 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
 package org.example.leetcode.java;
 
 /**
