@@ -12,8 +12,12 @@ public class LeetCode0215 {
     public static void main(String[] args) {
 
         int[] nums = new int[] { 3, 2, 1, 5, 6, 4 };
-        int re = findKthLargest3(nums, 2);
+        int re = findKthLargest2(nums, 2);
         System.out.println(re);
+        int x=2;
+        int n=4;
+        n ^= x;
+        System.out.println(n);
     }
 
     /**
@@ -38,6 +42,7 @@ public class LeetCode0215 {
         for (int val : nums) {
             queue.add(val);
             if (queue.size() > k) {
+                // 弹出第一个（最小的一个）
                 queue.poll();
             }
         }
