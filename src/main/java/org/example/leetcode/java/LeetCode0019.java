@@ -27,12 +27,55 @@ public class LeetCode0019 {
         head2.next = head3;
         head1.next = head2;
 
-        ListNode ss2 = removeNthFromEnd2(head1, n);
+        ListNode ss2 = removeNthFromEnd3(head1, n);
         System.out.println(ss2);
     }
 
     public static LeetCode0021.ListNode removeNthFromEnd(LeetCode0021.ListNode head, int n) {
         return removeNode(head, n) == n ? head.next : head;
+    }
+
+    /**
+     * 快慢指针
+     * 时间复杂度：O(n)
+     * @param head
+     * @param n
+     * @return
+     */
+    public static ListNode removeNthFromEnd3(ListNode head, int n) {
+        ListNode pre = new ListNode(0);
+        pre.next = head;
+        ListNode start = pre, end = pre;
+        while (n != 0) {
+            start = start.next;
+            n--;
+        }
+        while (start.next != null) {
+            start = start.next;
+            end = end.next;
+        }
+        ListNode temp = end.next.next;
+        end.next = null;
+        end.next = temp;
+        return pre.next;
+    }
+
+    public ListNode removeNthFromEnd4(ListNode head, int n) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode first = dummy;
+        ListNode second = dummy;
+        for (int i = 1; i <= n + 1; i++) {
+            first = first.next;
+        }
+        while (first != null) {
+            first = first.next;
+            second = second.next;
+        }
+        second.next = second.next.next;
+        return dummy.next;
+        //return head;
+
     }
 
     public static ListNode removeNthFromEnd2(ListNode head, int n) {
