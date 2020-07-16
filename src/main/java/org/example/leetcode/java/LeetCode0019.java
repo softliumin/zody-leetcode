@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+ * Remove Nth Node From End of List
  * @author zody
  * @since 2020-07-16 12:57
  */
@@ -11,9 +13,9 @@ public class LeetCode0019 {
 
     public static void main(String[] args) {
         int n = 2;
-//        LeetCode0021.ListNode head = null;
-//        LeetCode0021.ListNode ss = removeNthFromEnd(head, n);
-//        System.out.println(ss);
+        //        LeetCode0021.ListNode head = null;
+        //        LeetCode0021.ListNode ss = removeNthFromEnd(head, n);
+        //        System.out.println(ss);
 
         ListNode head1 = new ListNode(1);
         ListNode head2 = new ListNode(2);
