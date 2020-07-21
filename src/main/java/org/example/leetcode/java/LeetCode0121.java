@@ -16,11 +16,10 @@ public class LeetCode0121 {
     }
 
     public static int maxProfit(int[] prices) {
-        int max = 0;
-        if (null == prices || prices.length == 0) {
-            return max;
+        if (prices.length <= 1) {
+            return 0;
         }
-
+        int max = 0;
         for (int x = 0; x < prices.length; x++) {
             for (int y = x + 1; y < prices.length; y++) {
                 int temp = prices[x] - prices[y];
