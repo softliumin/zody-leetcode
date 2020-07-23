@@ -37,27 +37,28 @@ public class LeetCode0083 {
     }
 
     public ListNode deleteDuplicates2(ListNode head) {
-        if (head == null || head.next == null){
-            return head;
-        }
-        ListNode temp = head;
-        while (null != temp && null != temp.next) {
-            if (temp.next.val == temp.val) {
-                head.next = head.next.next;
-            }else{
-                temp = temp.next;
+        //        if (head == null || head.next == null){
+        //            return head;
+        //        }
+        //        ListNode temp = head;
+        //        while (null != temp && null != temp.next) {
+        //            if (temp.next.val == temp.val) {
+        //                head.next = head.next.next;
+        //            }else{
+        //                temp = temp.next;
+        //            }
+        //        }
+        //        return head;
+
+        ListNode cur = head;
+        while (cur != null && cur.next != null) {
+            if (cur.val == cur.next.val) {
+                cur.next = cur.next.next;
+            } else {
+                cur = cur.next;
             }
         }
-
-//        ListNode cur = head;
-//        while(cur!=null && cur.next!=null){
-//            if(cur.val==cur.next.val){
-//                cur.next=cur.next.next;
-//            }else{
-//                cur=cur.next;
-//            }
-//        }
-
         return head;
+
     }
 }
