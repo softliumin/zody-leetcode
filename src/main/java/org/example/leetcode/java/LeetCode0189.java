@@ -11,9 +11,9 @@ public class LeetCode0189 {
         LeetCode0189 leetCode0189 = new LeetCode0189();
 
         int[] nums = new int[] { 1, 2, 3, 4, 5, 6, 7 };
-        leetCode0189.rotate(nums, 3);
+        leetCode0189.rotate4(nums, 1);
         for (int x = 0; x < nums.length; x++) {
-            System.out.print(nums[x] + " ");
+            //System.out.print(nums[x] + " ");
         }
     }
 
@@ -76,18 +76,25 @@ public class LeetCode0189 {
 
     /**
      * 暴力
-     * O(n*k)
+     * 时间复杂度： O(n*k)
+     * 空间复杂度： O(n*k)
      * @param nums
      * @param k
      */
     public void rotate4(int[] nums, int k) {
-        int temp, previous;
+        int temp;
+        int previous;
         for (int i = 0; i < k; i++) {
             previous = nums[nums.length - 1];
             for (int j = 0; j < nums.length; j++) {
                 temp = nums[j];
                 nums[j] = previous;
                 previous = temp;
+
+                for (int x = 0; x < nums.length; x++) {
+                    System.out.print(nums[x] + " ");
+                }
+                System.out.println("");
             }
         }
     }
