@@ -11,28 +11,31 @@ public class LeetCode0215 {
 
     public static void main(String[] args) {
 
-        int[] nums = new int[] { 3, 2, 1, 5, 6, 4 };
-        int re = findKthLargest2(nums, 2);
+        int[] nums = new int[]{3, 2, 1, 5, 6, 4};
+        int re = findKthLargest(nums, 2);
         System.out.println(re);
-        int x=2;
-        int n=4;
-        n ^= x;
-        System.out.println(n);
+//        int x=2;
+//        int n=4;
+//        n ^= x;
+//        System.out.println(n);
     }
 
     /**
      * 先排序再查找
+     *
      * @param nums
      * @param k
      * @return
      */
     public static int findKthLargest(int[] nums, int k) {
+        // 底层排序用的是DualPivotQuicksort，后续要看看实现细节 TODO
         Arrays.sort(nums);
         return nums[nums.length - k];
     }
 
     /**
      * 最小堆
+     *
      * @param nums
      * @param k
      * @return
@@ -51,6 +54,7 @@ public class LeetCode0215 {
 
     /**
      * 快速排序
+     *
      * @param nums
      * @param k
      * @return
