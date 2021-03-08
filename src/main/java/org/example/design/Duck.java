@@ -1,7 +1,7 @@
 package org.example.design;
 
 /**
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-03-02 20:05
  */
 

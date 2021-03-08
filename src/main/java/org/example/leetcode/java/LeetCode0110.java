@@ -4,7 +4,7 @@ package org.example.leetcode.java;
  * 判断高度平衡二叉树
  * https://leetcode-cn.com/problems/balanced-binary-tree/
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-22 17:32
  */
 public class LeetCode0110 {

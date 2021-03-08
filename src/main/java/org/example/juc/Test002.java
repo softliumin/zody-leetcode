@@ -5,7 +5,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.FutureTask;
 
 /**
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-22 14:39
  */
 public class Test002 {

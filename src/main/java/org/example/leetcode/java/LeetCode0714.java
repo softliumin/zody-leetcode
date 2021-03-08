@@ -6,7 +6,7 @@ package org.example.leetcode.java;
  * 输入 prices = [1, 3, 2, 8, 4, 9], fee = 2
  * 输出 8
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-23 09:43
  */
 public class LeetCode0714 {

@@ -3,7 +3,7 @@ package org.example.leetcode.thread;
 import java.util.function.IntConsumer;
 
 /**
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-26 23:24
  */
 public class FizzBuzz {

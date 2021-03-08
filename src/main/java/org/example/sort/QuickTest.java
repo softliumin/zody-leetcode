@@ -3,7 +3,7 @@ package org.example.sort;
 /**
  * 快排 核心:递归 分置
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-03-03 10:36
  */
 public class QuickTest {

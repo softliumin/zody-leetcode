@@ -7,7 +7,7 @@ import java.util.Set;
  * https://leetcode-cn.com/problems/single-number/
  * 只出现一次的数字
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-03-04 11:22
  */
 public class LeetCode0136 {

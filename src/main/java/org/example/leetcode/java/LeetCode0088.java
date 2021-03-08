@@ -3,7 +3,7 @@ package org.example.leetcode.java;
 import java.util.Arrays;
 
 /**
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-03-04 10:24
  */
 public class LeetCode0088 {

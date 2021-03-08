@@ -3,7 +3,7 @@ package org.example.sort;
 /**
  * 二分查找
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-03-03 10:52
  */
 public class ErFenTest {

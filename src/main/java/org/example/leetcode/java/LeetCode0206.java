@@ -1,7 +1,7 @@
 package org.example.leetcode.java;
 
 /**
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-20 12:03
  */
 public class LeetCode0206 {

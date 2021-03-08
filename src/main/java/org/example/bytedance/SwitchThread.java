@@ -3,7 +3,7 @@ package org.example.bytedance;
 /**
  * 两个线程交替打印奇偶数
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-24 17:12
  */
 public class SwitchThread {

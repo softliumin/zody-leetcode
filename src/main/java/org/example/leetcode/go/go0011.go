@@ -23,3 +23,27 @@ func maxArea(height []int) int {
 	}
 	return result
 }
+
+func maxArea2(height []int) int {
+	left, right := 0, len(height)-1
+	maxContain := 0
+	for left != right {
+		heiLeft, heiRight := height[left], height[right]
+		ContainerVal := min(heiLeft, heiRight) * (right - left)
+		if ContainerVal > maxContain {
+			maxContain = ContainerVal
+		}
+		if heiLeft > heiRight {
+			right--
+		} else {
+			left++
+		}
+	}
+	return maxContain
+}
+func min(a, b int) int {
+	if a > b {
+		return b
+	}
+	return a
+}

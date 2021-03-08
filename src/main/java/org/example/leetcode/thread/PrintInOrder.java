@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 /**
  * 执行方法必须有序（考察线程之间通讯）
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-26 11:55
  */
 public class PrintInOrder {

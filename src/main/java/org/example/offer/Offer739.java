@@ -7,7 +7,7 @@ import java.util.Deque;
  * 观察温度  动态规划
  * https://leetcode-cn.com/problems/daily-temperatures/
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-20 17:57
  */
 public class Offer739 {

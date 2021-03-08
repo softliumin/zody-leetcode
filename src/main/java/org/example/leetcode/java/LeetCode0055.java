@@ -4,7 +4,7 @@ package org.example.leetcode.java;
  * https://leetcode-cn.com/problems/jump-game/
  * 跳跃游戏
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-03-01 19:59
  */
 public class LeetCode0055 {

@@ -3,7 +3,7 @@ package org.example.sort;
 /**
  * 冒泡排序
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-23 23:12
  */
 public class BubbleSort {

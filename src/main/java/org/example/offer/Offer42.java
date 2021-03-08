@@ -4,7 +4,7 @@ package org.example.offer;
  * 连续子数组的最大和
  * https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-20 16:55
  */
 public class Offer42 {

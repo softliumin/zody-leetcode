@@ -6,7 +6,7 @@ import java.util.LinkedList;
 /**
  * 用两个栈模拟队列（先入先出）
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-03-05 11:17
  */
 public class LeetCode0232 {

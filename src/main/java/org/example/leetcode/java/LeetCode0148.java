@@ -8,7 +8,7 @@ package org.example.leetcode.java;
  * 输出：[1,2,3,4]
  * https://books.halfrost.com/leetcode/ChapterFour/0100~0199/0148.Sort-List/
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-23 13:47
  */
 public class LeetCode0148 {

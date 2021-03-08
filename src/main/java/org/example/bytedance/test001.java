@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 import java.util.stream.Collectors;
 
 /**
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-24 19:57
  */
 public class test001 {

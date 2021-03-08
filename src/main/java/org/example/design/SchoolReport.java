@@ -6,7 +6,7 @@ package org.example.design;
  * 动态的给一些对象添加一些额外的职责。
  * 就增加功能来说，装饰模式相比生成子类更加灵活
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-03-02 20:32
  */
 public abstract class SchoolReport {

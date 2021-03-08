@@ -1,7 +1,7 @@
 package org.example;
 
 /**
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-23 20:24
  */
 public class Code0205 {

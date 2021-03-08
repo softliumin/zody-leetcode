@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * 题目地址：https://leetcode-cn.com/problems/lfu-cache/
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏 minliu
  * @since 2021-02-20 16:04
  */
 public class LeetCode0460 {
