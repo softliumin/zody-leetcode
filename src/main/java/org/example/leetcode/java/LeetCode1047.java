@@ -6,7 +6,7 @@ import java.util.Stack;
  * https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
  * 删除字符串中的所有相邻重复项 Remove All Adjacent Duplicates In String
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏
  * @since 2021-03-09 11:05
  */
 public class LeetCode1047 {

@@ -8,7 +8,7 @@ import java.util.List;
  * https://leetcode-cn.com/problems/permutations/
  * 全排列 Permutations
  *
- * @author 柳敏 minliu@91jkys.com
+ * @author 柳敏
  * @since 2021-03-09 19:13
  */
 public class LeetCode0046 {
