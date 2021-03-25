@@ -41,4 +41,23 @@ public class LeetCode0053 {
         }
         return res;
     }
+
+
+    /**
+     * 17.16 按摩师
+     *
+     * @param nums
+     * @return
+     */
+    public int massage(int[] nums) {
+        int first = 0;
+        int second = 0;
+        for (int i : nums) {
+            int temp = second;
+            second = Math.max(second, first + i);
+            first = temp;
+        }
+        return second;
+    }
+
 }
